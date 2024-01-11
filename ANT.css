@@ -1,0 +1,387 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* nav bar start here */
+
+.head {
+    background-color:#952323;
+
+}
+
+
+
+.antlogo {
+    width: 205px;
+    height: 61px;
+}
+.antlogo img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+a#navbarDropdown {
+    padding: 0px 40px;
+    color: white;
+    font-size: 15px;
+}
+
+a#navbarDropdown:hover
+{
+    color: black;
+}
+a.dropdown-item {
+    font-size: 12px;
+}
+
+a.dropdown-item:hover
+{
+    color:blue;
+    
+}
+
+
+
+.navbar-expand-lg .navbar-collapse {
+    display: flex!important;
+    flex-basis: auto;
+    padding: 0px 40px;
+}
+
+button.btn.btn-primary {
+    background:#541313d4;
+    color: white;
+    padding: 6px 30px;
+    border: white solid 1px;
+    border-radius: 30px;
+}
+button.btn.btn-primary:hover
+{
+    background-color: black;
+    transition: 2s ease ease-in-out;
+    cursor: pointer;
+    border-color:blue;
+    
+}
+
+/* nav bar form start here */
+
+span
+{
+    font-size: 40px;
+    color: #417c58;
+}
+
+
+/* carusel start here */
+.sildebox
+{
+    height: 500px;
+}
+.sildebox img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+h2 { font-size: 30px;
+    color:black;
+}
+
+p { font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color:black;
+}
+
+/* welcome media page star here */
+.background
+{
+    padding: 30px 30px;
+    background-image: url(deserve-more-bg.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.hello h1
+{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 30px 0px;
+    font-weight: bold;
+}
+.hello h3
+{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+}
+
+.col-auto {
+    margin: auto;
+    padding: 50px 0px;
+    width: 250px;
+    
+}
+
+
+/* Rechare and bil page here */
+.bg
+{
+    background-image: url(smartphone-1284501_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 65px 30px;
+}
+
+
+
+.recharge h1{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+form.row.row-cols-lg-auto.g-3.align-items-center {
+    width: 500px;
+    margin: auto;
+    padding: 30px 0px;
+}
+select#inlineFormSelectPref {
+    width: 200px;
+   
+
+}
+.col-12 {
+    flex: 0 0 auto;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+
+.input-group {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+}
+form.row.row-cols-lg-auto.g-3.align-items-center {
+    width: 329px;
+    margin: auto;
+    padding: 30px 0px;
+}
+
+
+
+
+
+/* Recommended for you start here */
+.plan h1 {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    margin: 30px 0px;
+}
+
+
+
+.list
+{
+    text-align: center;
+    padding: 30px 30px;
+    margin: auto;
+
+}
+.list p
+{
+    font-size: 16px;
+    
+}
+.list span 
+{
+    font-size: 24px;
+}
+.list h5
+{
+    color:red ;
+}
+
+h4.card-title {
+    font-size: 16px;
+}
+.cardresize
+{
+    width:auto;
+    height: 300px;
+
+}
+.cardresize img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.backrec {
+    background-image: linear-gradient(#0000009c,#0000009c),url(hero-banner-4.avif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px 30px;
+}
+
+/* our purpose start here */
+.purpose h1 {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 30px;
+    color: black;
+}
+
+
+#layout
+{      width: 100%;
+    padding: 50px 20px;
+    background-color:wheat;
+}
+
+
+.twobox h1 {
+    font-size: 35px;
+    color: #417c58;
+    text-align: center;
+    font-weight: 400;
+}
+.twobox p
+{
+    font-size: 14px;
+    color: black;
+    text-align: justify;
+    font-weight: 300;
+   
+
+}
+
+.ourimage
+{
+    width:auto ;
+    
+    
+}
+.ourimage img
+{
+    width: 100%;
+    object-fit: cover;
+}
+
+
+/* footer */
+
+.footerbox p {
+    font-size: 14px;
+    color: whitesmoke;
+   
+}
+
+h6.text-uppercase.fw-bold.mb-4 {
+    color: whitesmoke;
+}
+.footerbox span
+{
+    font-size: 14px;
+}
+section.d-flex.justify-content-center.justify-content-lg-between.p-4.border-bottom {
+    background-color: #972f2f;
+    color: whitesmoke;
+}
+footer.text-center.text-lg-start.bg-body-tertiary.text-muted {
+    background-color:#952323;
+   
+}
+
+
+
+/* mobile recharge page start here */
+
+.pagerecharge h1 {
+    font-size: 35px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+}
+.prepagepic
+{
+    width: 349px;
+    
+}
+.prepagepic img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.pagerecharge h1:hover
+{
+    color:#FFC6AC;
+}
+
+#rechargeback
+{
+    background-image: url(smartphone-1284501_1280.jpg);
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0px;
+}
+
+.rechargesection p {
+    font-size: 20px;
+}
+
+h2.card-title {
+    font-size: 30px;
+    
+}
+.rechargesection span
+{
+font-size: 20px;
+}
+
+/* view plan code start here */
+
+.view h2
+{
+    font-size: 16px;
+}
+.view p
+{
+    font-size: 16px;
+}
+
+
+.btn-secondary {
+    width: 140px;
+    margin: auto;
+    color: #fff;
+    background-color: #6c757d;
+    border-color: #6c757d;
+    margin: 10px 30px;
+}
